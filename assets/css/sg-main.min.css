@@ -3,6 +3,10 @@ body {
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased; }
   
+body {
+    overflow-x: hidden;
+}
+
   h1, h2, h3, .h1, .h2, .h3 {
     letter-spacing: -.025em; }
   
@@ -75,9 +79,10 @@ body {
       background-position: 5em 0px; } }
   
   .btn-dark:hover {
-    animation: pulse 1s ease-in infinite;
-    background: radial-gradient(circle, rgba(0, 10, 255, 0.5) 43%, transparent 50%) 0 0/1em 1em, radial-gradient(circle, rgba(0, 10, 255, 0.5) 43%, transparent 50%) 0.5em 0.5em/2em 2em;
-    color: #666200; }
+color: black !important;
+    background-color: #f0e511 !important;
+    border-color: #f0e50f !important;
+	}
   
   @keyframes pulse {
     50% {
@@ -356,7 +361,9 @@ body {
       padding-top: 16px;
       padding-bottom: 9px;
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px; 
+	  box-shadow: 0px 1px 2px #0505054d;
+	  }
       .desktop-nav.fixed-top-small.navbar-dark {
         background: #050505; }
         .desktop-nav.fixed-top-small.navbar-dark.blog-nav {
@@ -8113,11 +8120,12 @@ body {
     margin-left: -30px;
     margin-top: 50px;
     text-align: center; }
-    .usp-vertical .number {
-      font-size: 100px;
-      font-weight: 300;
-      font-family: itc-avant-garde-gothic-pro, sans-serif;
-      line-height: 95px; }
+	.usp-vertical .number {
+		font-size: 80px;
+		font-weight: 500;
+		font-family: itc-avant-garde-gothic-pro, sans-serif;
+		line-height: 72px;
+	}
     @media (max-width: 767.98px) {
       .usp-vertical {
         transform: rotate(0deg);
@@ -8130,13 +8138,13 @@ body {
         text-align: center; } }
   .drawn-end-bottom {
     height: 30px;
-    background-image: url("../assets/drawn-end-bottom.svg");
+    background-image: url("../images/drawn-end-bottom.svg");
     background-repeat: repeat-x;
     background-position: top center; }
   
   .drawn-end-top {
     height: 30px;
-    background-image: url("../assets/drawn-end-bottom.svg");
+    background-image: url("../images/drawn-end-bottom.svg");
     background-repeat: repeat-x;
     background-position: bottom center;
     -webkit-transform: rotate(-180deg);
