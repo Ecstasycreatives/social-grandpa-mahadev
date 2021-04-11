@@ -12,26 +12,35 @@
     border-color: #ffffff;
 }
 
-.ml4 {
-  position: relative;
-  font-weight: 900;
-  font-size: 4.5em;
-}
-.ml4 .letters {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  top: 0.3em;
-  right: 0;
-  opacity: 0; 
-  color: #f0e50f;
-  font-size:140px;
-}
 
-#typo-text {
-    width: 35rem;
-    display: block;
-    height: 12rem;
-    margin: auto;
-    margin-top: -2rem;
+@media only screen and (max-width: 765px){
+	#navbarLogo {
+		width: 50px;
+	}
+	.sub-text-container {
+		text-align: center;
+	}
+	.sg-values {
+		text-align: justify;
+		margin-top: 1rem !important;
+		padding: 10px;
+	}
+	.drawn-end-top, .drawn-end-bottom{
+		height: 35px;
+	}	
+	.footer-bottom-mobile .navbar-nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.footer-bottom-mobile .navbar-nav li{
+		margin-right: 2rem;
+	}
+	
+	.footer-bottom-mobile .copy{
+		padding-bottom: 2rem;
+		text-align: center;
+		padding-left: 0!important;
+	}
 }
