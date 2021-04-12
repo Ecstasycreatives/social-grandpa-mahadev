@@ -12,6 +12,10 @@
     border-color: #ffffff;
 }
 
+.footer-bottom-mobile {
+    display: none;
+}
+
 
 @media only screen and (max-width: 765px){
 	#navbarLogo {
@@ -27,6 +31,9 @@
 	}
 	.drawn-end-top, .drawn-end-bottom{
 		height: 35px;
+	}	
+	.footer-bottom-mobile {
+		display: block;
 	}	
 	.footer-bottom-mobile .navbar-nav{
 		display: flex;
