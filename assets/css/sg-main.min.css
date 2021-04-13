@@ -274,7 +274,7 @@ color: black !important;
           font-weight: 700;
           width: 100%; }
     .mobile-nav.menu-opened {
-height: 75%;
+height: 100%;
     background-color: #f0e50f;
       transition: all 0.1s ease-in, background 0.1s ease-in; }
       .mobile-nav.menu-opened.mobile-nav-inverse {

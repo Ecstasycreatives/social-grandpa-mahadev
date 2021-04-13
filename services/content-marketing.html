@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Social Grandpa</title>
+    <title>Content Marketing - Social Grandpa</title>
  
     <meta name="description" content="">
     <meta name="robots" content="all">
@@ -39,7 +39,7 @@
     <!-- Mobile nav -->
       <div class="mobile-nav d-lg-none">
         <a class="navbar-brand" href="/">
-            <img src="../assets/images/SG.png" id="navbarLogo" />
+            <img src="assets/images/SG.png" id="navbarLogo" />
         </a>
         <div class="burger-container">
           <div id="burger">
@@ -48,11 +48,12 @@
           </div>
         </div>
         <ul class="menu">
-          <li class="menu-item"><a href="/">About</a></li>
-          <li class="menu-item"><a href="/">Services</a></li>
-          <li class="menu-item"><a href="/">Careers</a></li>
-          <li class="menu-item"><a href="/">Insights</a></li>
-          <a class="btn btn-dark text-white text-center mt-2" href="/">Contact us</a>
+		  <li class="menu-item"><a href="/">Home</a></li>
+          <li class="menu-item"><a href="/about-us">About</a></li>
+          <li class="menu-item"><a href="/services">Services</a></li>
+          <li class="menu-item"><a href="/careers">Careers</a></li>
+          <li class="menu-item"><a href="/blogs">Blogs</a></li>
+          <a class="btn btn-dark text-white text-center mt-2" href="/contact-us">Contact us</a>
         </ul>
       </div>
 
@@ -61,30 +62,42 @@
       <nav class="desktop-nav fixed-top navbar navbar-toggleable-md">
         <div class="container extra-large position-relative">
           <a class="navbar-brand d-none d-lg-block" href="/">
-            <img src="../assets/images/SG.png" id="navbarLogo" />
+            <img src="assets/images/SG.png" id="navbarLogo" />
           </a>
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto sprints">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">About</a>
+                    <a class="nav-link" href="/">Home</a>
+                </li>			
+                <li class="nav-item">
+                    <a class="nav-link" href="/about-us">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="/services/branding">Branding</a><hr>
+                    <a class="dropdown-item" href="/services/web-design-and-development">Web Design & Development</a><hr>
+                    <a class="dropdown-item" href="/services/social-media-marketing">Social Media Marketing</a><hr>
+                    <a class="dropdown-item" href="/services/seo-and-sem">SEO & SEM</a><hr>
+                    <a class="dropdown-item" href="/services/content-marketing">Content Marketing</a><hr>
+                    <a class="dropdown-item" href="/services/ppc-advertising">PPC Advertising</a>
+                  </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Services</a>
+                    <a class="nav-link" href="/careers">Careers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Careers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/" target="_blank">Blogs</a>
+                    <a class="nav-link" href="/blogs" target="_blank">Blogs</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <form class="form-inline mt-2 mt-md-0">
-                  <a href="/" class="btn btn-sm btn-dark mt-n1 ml-1">Contact us</a>
+                  <a href="/contact-us" class="btn btn-dark mt-n1 ml-1">Contact us</a>
                 </form>
             </ul>
-          </div>
-        </div>
+          </div></div>
       </nav>
 
 
@@ -185,7 +198,7 @@
       </div>
 
 
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="bg-light">
       <div class="container text-white pt-lg-4 pt-3">
 
@@ -196,11 +209,11 @@
 
               <p class="h3 text-dark mb-2"><a href="/" class="card-link text-dark">Home</a></p>
 
-              <p class="h3 text-dark mb-2"><a href="/" class="card-link  text-dark">About</a></p>
+              <p class="h3 text-dark mb-2"><a href="/about-us" class="card-link  text-dark">About</a></p>
 
-              <p class="h3 text-dark mb-2"><a href="/" class="card-link text-dark">Careers</a></p>
+              <p class="h3 text-dark mb-2"><a href="/careers" class="card-link text-dark">Careers</a></p>
 
-              <p class="h3 text-dark mb-2"><a href="/" class="card-link text-dark">Blogs</a></p>
+              <p class="h3 text-dark mb-2"><a href="/blogs" class="card-link text-dark">Blogs</a></p>
           </div>
         </div>
 
@@ -208,15 +221,17 @@
          <div class="container text-white">
               <p class="text-dark mb-2 pt-1">Services</p>
 
-              <p class="h5 text-dark mb-2"><a href="/" class="card-link text-dark">Branding</a></p>
+              <p class="h5 text-dark mb-2"><a href="/services/branding" class="card-link text-dark">Branding</a></p>
 
-              <p class="h5 text-dark mb-2"><a href="/" class="card-link  text-dark">Web Design & Development</a></p>
+              <p class="h5 text-dark mb-2"><a href="/services/web-design-and-development" class="card-link  text-dark">Web Design & Development</a></p>
 
-              <p class="h5 text-dark mb-2"><a href="/" class="card-link text-dark">Social Media Marketing</a></p>
+              <p class="h5 text-dark mb-2"><a href="/services/social-media-marketing" class="card-link text-dark">Social Media Marketing</a></p>
+			  
+			  <p class="h5 text-dark mb-2"><a href="/services/seo-and-sem" class="card-link text-dark">SEO & SEM</a></p>
 
-              <p class="h5 text-dark mb-2"><a href="/" class="card-link text-dark">Content Marketing</a></p>
+              <p class="h5 text-dark mb-2"><a href="/services/content-marketing" class="card-link text-dark" id="active">Content Marketing</a></p>
 
-              <p class="h5 text-dark mb-2"><a href="/" class="card-link text-dark">PPC Advertising</a></p>
+              <p class="h5 text-dark mb-2"><a href="/services/ppc-advertising" class="card-link text-dark">PPC Advertising</a></p>
           </div>
         </div>
 
@@ -295,8 +310,8 @@
                 </ul>
             </div>
         </nav>
-      
-      <div class="footer-bottom-mobile">
+		
+		<div class="footer-bottom-mobile">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/" target="_blank">
@@ -336,13 +351,14 @@
                         </svg>
                       </a>
                     </li>
-                </ul>   
-               <p class="text-dark mb-0 pt-2 pd-3 pl-3 copy small">© 2021 Social Grandpa · All rights reserved · <a class="card-link text-dark" href="mailto:support@socialgrandpa.com">support@socialgrandpa.com</a></p>
-                              
-      </div>
+                </ul>	
+					<p class="text-dark mb-0 pt-2 pd-3 pl-3 copy small">© 2021 Social Grandpa · All rights reserved · <a class="card-link text-dark" href="mailto:support@socialgrandpa.com">support@socialgrandpa.com</a></p>
+                  				
+		</div>
 
       </div>
     </footer>
+
 
 
       <script>(function(){var burger=document.querySelector('.burger-container'),header=document.querySelector('.mobile-nav');burger.onclick=function(){header.classList.toggle('menu-opened');}}());
@@ -352,6 +368,8 @@
    <script src="../assets/vendor/code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 
    <script src="../assets/vendor/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+   
+   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
      <script>
