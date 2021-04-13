@@ -17,6 +17,11 @@
     display: none;
 }
 
+.services-container a{
+    text-decoration: none;
+    color: black;
+}
+
 .ml4 {
   position: relative;
   font-weight: 900;
@@ -37,6 +42,33 @@
     height: 10rem;
     margin-top: -2.5rem;
 	margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 765px){
+
+	body {
+		overflow-x: hidden;
+	}
+	
+	.ml4 {
+	  font-size: 2.5em;
+	}
+	.ml4 .letters {
+	  right: 0;
+	}
+
+	#moving-letters {
+		height: 8rem;
+		margin-top: -2rem;
+		margin-bottom: -2rem;
+	}
+}
+
+@media (max-width: 991.98px){
+	.splash-line-2 {
+		font-size: 60px;
+		margin-top: 7px;
+	}
 }
 
 @media only screen and (max-width: 765px){
@@ -290,4 +322,11 @@
     border-right: unset;
     border-bottom: none;
     border-left: unset;
+}
+
+
+@media only screen and (max-width: 765px){
+	.usp-vertical .number {
+		font-size: 65px;
+	}
 }
