@@ -20,8 +20,9 @@
 .ml4 {
   position: relative;
   font-weight: 900;
-  font-size: 4.5em;
+  font-size: 5.5em;
   color: #f0e511;
+  text-shadow: 5px 5px 0px #050505;
 }
 .ml4 .letters {
   position: absolute;
@@ -32,6 +33,11 @@
   opacity: 0; 
 }
 
+#moving-letters {
+    height: 10rem;
+    margin-top: -2.5rem;
+	margin-bottom: 2.5rem;
+}
 
 @media only screen and (max-width: 765px){
 	#navbarLogo {
@@ -66,6 +72,20 @@
 		text-align: center;
 		padding-left: 0!important;
 	}
+
+	#separator-vertical {
+	    margin-top: -10rem;
+	    text-align: center;
+	    margin-bottom: -5rem;
+	}
+
+	#separator-vertical img{
+	    transform: rotate(90deg);
+	    position: relative;
+	    margin: auto;
+	    padding: 0rem;
+	}
+
 }
 
 
@@ -225,4 +245,49 @@
 	.news-banner h2 {
 		font-size: 70px
 	}
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1.35rem;
+    color: #050505;
+    text-align: left;
+    list-style: none;
+    background-color: #f0e50f;
+    background-clip: padding-box;
+    border: unset;
+    border-radius: 7px;
+	box-shadow: 0px 1px 2px #0505054d;
+}
+
+.dropdown-menu hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 85%;
+    border-top: 2px solid rgb(232 86 32 / 52%);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #e85d1f;
+    text-decoration: none;
+    background-color: unset;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0;
+    vertical-align: 0em;
+    content: "";
+    border-top: none;
+    border-right: unset;
+    border-bottom: none;
+    border-left: unset;
 }

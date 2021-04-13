@@ -71,8 +71,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/about-us">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Services</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="/services/branding">Branding</a><hr>
+                    <a class="dropdown-item" href="/services/web-design-and-development">Web Design & Development</a><hr>
+                    <a class="dropdown-item" href="/services/social-media-marketing">Social Media Marketing</a><hr>
+                    <a class="dropdown-item" href="/services/seo-and-sem">SEO & SEM</a><hr>
+                    <a class="dropdown-item" href="/services/content-marketing">Content Marketing</a><hr>
+                    <a class="dropdown-item" href="/services/ppc-advertising">PPC Advertising</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/">Careers</a>
@@ -83,37 +93,32 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <form class="form-inline mt-2 mt-md-0">
-                  <a href="/" class="btn btn-sm btn-dark mt-n1 ml-1">Contact us</a>
+                  <a href="/" class="btn btn-dark mt-n1 ml-1">Contact us</a>
                 </form>
             </ul>
-          </div>
-        </div>
+          </div></div>
       </nav>
 
 
       <!-- Jumbotron Content -->
-     <div class="container-fluid inverse pt-3 pt-lg-4 z-99">
+     <div class="container-fluid inverse mt-4 pt-3 pt-lg-4 z-99">
         <div class="row justify-content-md-center text-center">
-           <div id="circle_anim"></div>
           <div class="col-md-12 pt-md-5 pt-3">
-            <h2>
-        	   <div class="splash-line-2">Ideating Your</div>
+            <h3><div class="splash-line-2">Ideating Your</div></h3>
 
-        	   	<div>
-					<h1 class="ml4">
-					  <span class="letters letters-1">Brand</span>
-					  <span class="letters letters-2">Visuals</span>
-					  <span class="letters letters-3">Words</span>
-					  <span class="letters letters-4">Reach</span>
-					  <span class="letters letters-5">Growth</span>
-					</h1>
-				</div>
+        	   	<div id="moving-letters">
+                <h1 class="ml4">
+                  <span class="letters letters-1">Brand</span>
+                  <span class="letters letters-2">Visuals</span>
+                  <span class="letters letters-3">Words</span>
+                  <span class="letters letters-4">Reach</span>
+                  <span class="letters letters-5">Growth</span>
+                </h1>
+              </div>
 
+            <h3><div class="splash-line-2">Digitally.</div></h3>
 
-
-				<div class="splash-line-2">Digitally.</div>
-			  </h2>
-			</div>
+		    	</div>
           <div class="col-md-7 mt-2 mt-md-3 mb-5 pb-0 pb-md-3">
             <div class="row justify-content-center">
               <div class="col-md-10 col-12">
@@ -493,7 +498,7 @@
 
     <script src="./assets/vendor/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
 
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.0/lottie.min.js"></script>
 
@@ -518,7 +523,6 @@
 
 
 	<script type="text/javascript">
-		
 		var ml4 = {};
 			ml4.opacityIn = [0,1];
 			ml4.scaleIn = [0.2, 1];
@@ -591,8 +595,8 @@
 			  }).add({
 			    targets: '.ml4',
 			    opacity: 0,
-			    duration: 500,
-			    delay: 500
+			    duration: 0,
+			    delay: 0
 			  });
 	</script>
   
