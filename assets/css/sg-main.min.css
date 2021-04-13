@@ -113,7 +113,7 @@ color: black !important;
     background: linear-gradient(180deg, white 0%, #f4f5f6 100%); }
   
   .bg-splash-1-top {
-    background-image: url("../assets/splash-1-top.png");
+    background-image: url("../images/splash-1-top.png");
     background-position: top center;
     background-size: 860px;
     background-repeat: no-repeat; }
@@ -144,7 +144,7 @@ color: black !important;
     padding: 10px; }
     a.contact-shortcut::before {
       content: '';
-      background: url(../assets/contact-shortcut-text.png);
+      background: url(../images/contact-shortcut-text.png);
       display: block;
       height: 90px;
       width: 90px;
@@ -434,17 +434,17 @@ height: 75%;
     .clients-slideshow.slideleft {
       animation: slideright 300s infinite linear;
       -webkit-animation: slideright 300s infinite linear;
-      background-image: url("../assets/clients-slideshow-1%401x.png"); }
+      background-image: url("../images/clients-slideshow-1%401x.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
         .clients-slideshow.slideleft {
-          background-image: url("../assets/clients-slideshow-1%402x.png"); } }
+          background-image: url("../images/clients-slideshow-1%402x.png"); } }
     .clients-slideshow.slideright {
       animation: slideright 500s infinite linear;
       -webkit-animation: slideright 500s infinite linear;
-      background-image: url("../assets/clients-slideshow-2%401x.png"); }
+      background-image: url("../images/clients-slideshow-2%401x.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
         .clients-slideshow.slideright {
-          background-image: url("../assets/clients-slideshow-2%402x.png"); } }
+          background-image: url("../images/clients-slideshow-2%402x.png"); } }
     @media (max-width: 1200px) {
       .clients-slideshow {
         background-size: 1300px;
@@ -456,7 +456,7 @@ height: 75%;
     height: 475px;
     animation: slideright 280s infinite linear;
     -webkit-animation: slideright 280s infinite linear;
-    background-image: url("../assets/brand-styleguide.png"); }
+    background-image: url("../images/brand-styleguide.png"); }
   
   .img-link:hover {
     opacity: 0.5;
@@ -544,21 +544,21 @@ height: 75%;
       -webkit-transform: none;
       transform: none; }
     .tab.one {
-      background-image: url("../assets/tab-1.png"); }
+      background-image: url("../images/tab-1.png"); }
       .tab.one.active {
-        background-image: url("../assets/tab-1-active.png"); }
+        background-image: url("../images/tab-1-active.png"); }
     .tab.two {
-      background-image: url("../assets/tab-2.png"); }
+      background-image: url("../images/tab-2.png"); }
       .tab.two.active {
-        background-image: url("../assets/tab-2-active.png"); }
+        background-image: url("../images/tab-2-active.png"); }
     .tab.three {
-      background-image: url("../assets/tab-3.png"); }
+      background-image: url("../images/tab-3.png"); }
       .tab.three.active {
-        background-image: url("../assets/tab-3-active.png"); }
+        background-image: url("../images/tab-3-active.png"); }
     .tab.four {
-      background-image: url("../assets/tab-4.png"); }
+      background-image: url("../images/tab-4.png"); }
       .tab.four.active {
-        background-image: url("../assets/tab-4-active.png"); }
+        background-image: url("../images/tab-4-active.png"); }
     .tab.one p {
       padding-top: 5px; }
     .tab.two p, .tab.four p {
@@ -8070,7 +8070,7 @@ height: 75%;
     box-shadow: inset 0 -0.35em 0 #f0e511; }
   
   .usp-splashed {
-    background-image: url("../assets/splash-bg-desktop.png");
+    background-image: url("../images/splash-bg-desktop.png");
     background-position: right center;
     background-repeat: no-repeat;
     text-align: right;
@@ -8082,7 +8082,7 @@ height: 75%;
         padding-top: 111px;
         background-position: top center;
         padding-bottom: 0;
-        background-image: url("../assets/splash-bg-mobile.png");
+        background-image: url("../images/splash-bg-mobile.png");
         background-size: 130%; } }
   .hand-drawn-border {
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
@@ -8281,7 +8281,7 @@ height: 75%;
       background: #1C2335; }
     @media (min-width: 992px) {
       .project-cover.phantom-opera-cover {
-        background-image: url("../assets/phantom-opera-design-cover.png");
+        background-image: url("../images/phantom-opera-design-cover.png");
         background-size: 750px;
         background-position: bottom right;
         background-repeat: no-repeat; } }
@@ -8309,7 +8309,7 @@ height: 75%;
   
   .flok-slider {
     background-color: #FFFBF2;
-    background-image: url("../assets/projects/flok/slider-bg.png");
+    background-image: url("../images/projects/flok/slider-bg.png");
     background-repeat: repeat;
     background-position: left center;
     background-size: 812px; }
@@ -8323,7 +8323,7 @@ height: 75%;
   
   .garage-slider {
     background-color: #29009B;
-    background-image: url("../assets/projects/garage/slider.html");
+    background-image: url("../images/projects/garage/slider.html");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 20%; }
@@ -8339,7 +8339,7 @@ height: 75%;
         width: 40%; } }
   .hop-slider {
     background-color: #2F3660;
-    background-image: url("../assets/projects/hop/slider-bg%401x.png");
+    background-image: url("../images/projects/hop/slider-bg%401x.png");
     background-position: bottom center;
     background-repeat: repeat-x;
     background-size: 1700px; }
@@ -8355,10 +8355,10 @@ height: 75%;
           display: none; } }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .hop-slider {
-        background-image: url("../assets/projects/hop/slider-bg%402x.png"); } }
+        background-image: url("../images/projects/hop/slider-bg%402x.png"); } }
   .zeal-slider {
     background-color: #FFFAE8;
-    background-image: url("../assets/projects/zeal/slider%401x.png");
+    background-image: url("../images/projects/zeal/slider%401x.png");
     background-repeat: no-repeat;
     background-size: 1655px;
     background-position: bottom center;
@@ -8366,10 +8366,10 @@ height: 75%;
     /* END Start Bouncing Mascot */ }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .zeal-slider {
-        background-image: url("../assets/projects/zeal/slider%402x.png"); } }
+        background-image: url("../images/projects/zeal/slider%402x.png"); } }
     @media (max-width: 991.98px) {
       .zeal-slider {
-        background-image: url("../assets/projects/zeal/slider-mobile.png");
+        background-image: url("../images/projects/zeal/slider-mobile.png");
         background-size: cover; } }
     .zeal-slider .mascot {
       position: absolute;
@@ -8400,39 +8400,39 @@ height: 75%;
   
   .symbiotica-slider {
     background-color: #2f063c;
-    background-image: url("../assets/projects/symbiotica/slider%401x.png");
+    background-image: url("../images/projects/symbiotica/slider%401x.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .symbiotica-slider {
-        background-image: url("../assets/projects/symbiotica/slider%402x.png"); } }
+        background-image: url("../images/projects/symbiotica/slider%402x.png"); } }
     @media (max-width: 991.98px) {
       .symbiotica-slider {
         background-size: cover; } }
   .flok-bg {
     background-color: #FFFBF2;
-    background-image: url("../assets/projects/flok/casestudy-bg%401x.png");
+    background-image: url("../images/projects/flok/casestudy-bg%401x.png");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 1900px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .flok-bg {
-        background-image: url("../assets/projects/flok/casestudy-bg%402x.png"); } }
+        background-image: url("../images/projects/flok/casestudy-bg%402x.png"); } }
     @media (max-width: 991.98px) {
       .flok-bg {
         background-position: top center;
-        background-image: url("../assets/projects/flok/casestudy-bg-mobile%402x.png");
+        background-image: url("../images/projects/flok/casestudy-bg-mobile%402x.png");
         background-size: contain; } }
   .garage-bg {
     background-color: #29009B;
-    background-image: url("../assets/projects/garage/casestudy-bg%401x.png");
+    background-image: url("../images/projects/garage/casestudy-bg%401x.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 210px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .garage-bg {
-        background-image: url("../assets/projects/garage/casestudy-bg%402x.png"); } }
+        background-image: url("../images/projects/garage/casestudy-bg%402x.png"); } }
     @media (max-width: 991.98px) {
       .garage-bg {
         background-position: top left;
@@ -8441,7 +8441,7 @@ height: 75%;
           display: none; } }
   .hop-bg {
     background-color: #141935;
-    background-image: url("../assets/projects/hop/casestudy-bg%401x.png");
+    background-image: url("../images/projects/hop/casestudy-bg%401x.png");
     background-position: bottom center;
     background-repeat: repeat-x;
     background-size: 1616px; }
@@ -8451,11 +8451,11 @@ height: 75%;
       right: 100px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .hop-bg {
-        background-image: url("../assets/projects/hop/casestudy-bg%402x.png"); } }
+        background-image: url("../images/projects/hop/casestudy-bg%402x.png"); } }
     @media (max-width: 991.98px) {
       .hop-bg {
         background-position: top center;
-        background-image: url("../assets/projects/hop/casestudy-bg-mobile%402x.html");
+        background-image: url("../images/projects/hop/casestudy-bg-mobile%402x.html");
         background-size: contain; }
         .hop-bg .fish-hop {
           position: absolute;
@@ -8464,7 +8464,7 @@ height: 75%;
           width: 100px; } }
   .zeal-bg {
     background-color: #FFFAE8;
-    background-image: url("../assets/projects/zeal/casestudy-bg%401x.png");
+    background-image: url("../images/projects/zeal/casestudy-bg%401x.png");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 1382px;
@@ -8472,7 +8472,7 @@ height: 75%;
     /* END Start Bouncing Mascot */ }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .zeal-bg {
-        background-image: url("../assets/projects/zeal/casestudy-bg%402x.png"); } }
+        background-image: url("../images/projects/zeal/casestudy-bg%402x.png"); } }
     .zeal-bg .mascot {
       position: absolute;
       right: 134px;
@@ -8499,24 +8499,24 @@ height: 75%;
           display: none; } }
   .zeal-bg-1 {
     background-color: #FFE687;
-    background-image: url("../assets/projects/zeal/bg-1%401x.png");
+    background-image: url("../images/projects/zeal/bg-1%401x.png");
     background-position: top right;
     background-repeat: repeat-x;
     background-size: 1900px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .zeal-bg-1 {
-        background-image: url("../assets/projects/zeal/bg-1%402x.png"); } }
+        background-image: url("../images/projects/zeal/bg-1%402x.png"); } }
   .zeal-bg-2 {
     background-color: #FBDDDA;
-    background-image: url("../assets/projects/zeal/bg-2%401x.png");
+    background-image: url("../images/projects/zeal/bg-2%401x.png");
     background-position: bottom right;
     background-repeat: repeat-x;
     background-size: 1900px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
       .zeal-bg-2 {
-        background-image: url("../assets/projects/zeal/bg-2%402x.png"); } }
+        background-image: url("../images/projects/zeal/bg-2%402x.png"); } }
   .phantom-bg {
-    background-image: url("../assets/projects/phantom/phantom-bg.jpg");
+    background-image: url("../images/projects/phantom/phantom-bg.jpg");
     background-size: cover;
     background-position: top center; }
   
@@ -8532,14 +8532,14 @@ height: 75%;
       bottom: -70px; }
   
   .shepper-bg {
-    background-image: url("../assets/projects/shepper/shepper-bg.jpg");
+    background-image: url("../images/projects/shepper/shepper-bg.jpg");
     background-size: cover;
     background-position: center center; }
   
   .concordium-bg {
     background: #101418;
     position: relative;
-    background-image: url(../assets/projects/concordium/graph.svg);
+    background-image: url(../images/projects/concordium/graph.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center; }
@@ -8547,7 +8547,7 @@ height: 75%;
   .rubble-bg {
     background: #1E2026;
     position: relative;
-    background-image: url(../assets/projects/rubble/pattern.svg);
+    background-image: url(../images/projects/rubble/pattern.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center; }
@@ -8563,7 +8563,7 @@ height: 75%;
   .vola-bg {
     background: #001A70;
     position: relative;
-    background-image: url(../assets/projects/vola-health/pattern.svg);
+    background-image: url(../images/projects/vola-health/pattern.svg);
     background-size: 500px;
     background-repeat: repeat-x;
     background-position: top center; }

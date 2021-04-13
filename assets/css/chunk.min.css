@@ -1,3 +1,4 @@
+
 #navbarLogo {
     width: 100px;
 }
@@ -14,6 +15,21 @@
 
 .footer-bottom-mobile {
     display: none;
+}
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #f0e511;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
 }
 
 
@@ -49,5 +65,164 @@
 		padding-bottom: 2rem;
 		text-align: center;
 		padding-left: 0!important;
+	}
+}
+
+
+.page-header {
+	background: #f0e511;
+	padding-top: 80px;
+	margin-bottom: 100px;
+	text-align: center;
+	position: relative
+}
+
+.page-header:after {
+	display: block;
+	content: '';
+	width: 100%;
+	height: 19px;
+	position: absolute;
+	background-image: url('../images/archive.svg');
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-size: 1200px 19px;
+	left: 0;
+	bottom: -18px;
+	z-index: 1
+}
+
+.page-header h1 {
+	font-size: 2.5rem;
+	letter-spacing: -0.09em;
+	line-height: 1.15;
+	color: #fff;
+	text-shadow: 5px 5px 0px #000;
+	font-weight: bold;
+	transform: translate(0, 50%);
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	z-index: 2
+}
+
+ .page-header h1:after {
+	display: block;
+	content: '';
+	width: 55px;
+	height: 31px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	bottom: -20px;
+	left: 20%
+}
+
+
+@media (min-width: 768px) {
+	.page-header h1 {
+		font-size: 4.5rem;
+		transform: translate(0, 30%)
+	}
+}
+
+@media (min-width: 992px) {
+	.page-header {
+		padding-top: 150px;
+		margin-bottom: 7.5%
+	}
+	.page-header h1 {
+		font-size: 8.5rem;
+		text-shadow: 5px 10px 0px #000;
+		transform: translate(0, 33%)
+	}
+	.page-header h1:after {
+		width: 110px;
+		height: 62px;
+		bottom: 20px
+	}
+}
+
+@media (min-width: 1200px) {
+	.page-header h1 {
+		font-size: 12.5rem
+	}
+}
+
+@media (max-width: 991.88px) {
+	.page-header {
+		margin-bottom: 60px;
+		padding-top: 10px
+	}
+	.page-header h1 {
+		font-size: 3.5rem
+	}
+}
+
+
+
+.pony-banner {
+	background: #f0e511;
+	padding: 80px 0;
+	position: relative;
+	color: #000;
+	font-size: 24px;
+	margin: 5rem 0
+}
+
+.pony-banner:before,
+.pony-banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 21px;
+	background-repeat: repeat-x;
+	background-position: left center
+}
+
+.pony-banner:before {
+	background-image: url('../images/podcast-top.svg');
+	top: -20px
+}
+
+.pony-banner:after {
+	background-image: url('../images/podcast-bottom.svg');
+	bottom: -20px
+}
+
+.news-banner {
+	margin: 6rem 0 0rem 0
+}
+
+.news-banner:before,
+.news-banner:after {
+	background-position: -200px 0
+}
+
+.news-banner .unihorn {
+	width: 70%;
+	max-width: 300px;
+	height: auto;
+	filter: drop-shadow(2px 4px 6px rgba(5,5,5,0.4));
+	transform: rotate(-2deg)
+}
+
+.news-banner h2 {
+	font-weight: 500;
+	font-size: 3rem;
+	line-height: 1.15;
+	letter-spacing: -0.04em
+}
+
+
+@media (min-width: 992px) {
+	.news-banner .unihorn {
+		max-width: 100%
+	}
+	.news-banner h2 {
+		font-size: 70px
 	}
 }
