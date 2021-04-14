@@ -1,4 +1,28 @@
 
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f9f9f9;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e85d1f;
+	border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #000;
+}
+
+@media only screen and (max-width: 990px) {
+	::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+
 #navbarLogo {
     width: 100px;
 }
