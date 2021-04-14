@@ -121,11 +121,12 @@
 			<div class="bg-y">
 				<div class="container pt-3 pb-3">
                     <div class="row mt-lg-4">
-                        <div class="col-lg-9">
+                        <div class="col-lg-6">
                         <h1>Web Design & Development</h1>
                         <p class="lead mt-4">Automation makes lives easy and when put to proper use, it increases the productivity of your business. Websites convey your brand values and messages. Kickstart your digital journey with a website that boosts your business presence. The website defines you and your vision/mission. We are specialized in handcrafted solutions for your business, from building a website to automating your business process digitally for hassle-free business progress.  
                         </p>       
                         </div>
+						<div class="col-lg-6" id="web_anim"></div>
                     </div>
 				</div>
 			</div>
@@ -378,7 +379,10 @@
    
    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.0/lottie.min.js"></script>
 
+   <script type="text/javascript">var animation1=bodymovin.loadAnimation({container:document.getElementById("web_anim"),renderer:"svg",loop:!0,autoplay:!0,path:"../assets/development.json"});</script>
+   
      <script>
 var s = $(".desktop-nav");
 var pos = s.position();

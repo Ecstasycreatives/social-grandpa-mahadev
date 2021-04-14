@@ -121,12 +121,13 @@
 			<div class="bg-y">
 				<div class="container pt-3 pb-3">
                     <div class="row mt-lg-4">
-                        <div class="col-lg-9">
+                        <div class="col-lg-6">
                         <h1>Content Marketing</h1>
                         <p class="lead mt-4">Content plays a major role in the growth of any Brand or Business. Around 1.75 million blog posts, 500 hours of videos and 300 million+ Photos are being uploaded every day. Nurturing social channels with constant content has been creating wonders for Businesses' & Brands' growth by increasing Traffic, Sales & Generating Leads.  
                             Our artistic content creators will help you to fuel all your Social mediums with the best creative & trending content consistently and help to market with efficient strategies to boost them at the right time. 
                             </p>       
                         </div>
+						<div class="col-lg-6" id="content_anim"></div>
                     </div>
 				</div>
 			</div>
@@ -371,7 +372,10 @@
    
    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.0/lottie.min.js"></script>
 
+   <script type="text/javascript">var animation1=bodymovin.loadAnimation({container:document.getElementById("content_anim"),renderer:"svg",loop:!0,autoplay:!0,path:"../assets/content.json"});</script>
+   
      <script>
 var s = $(".desktop-nav");
 var pos = s.position();
